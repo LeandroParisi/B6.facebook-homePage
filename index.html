@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<title>Project: Facebook page - Leandrod e Vagner</title>
+</head>
+
+<body>
+	<header class="top-bar">
+		<img class="facebook-logo"
+			src="imgs/facebook-logo.png"
+      alt="Logo Facebook">
+    <form method="get" class="facebook-login">
+      <div class="form-group">
+        <label id="user-email-phone-label" for="email">Email ou telefone</label>
+        <input id="user-email-phone" type="text" placeholder="email ou telefone" required>
+      </div>
+      <div class="form-group">
+        <label id="user-password-label" for="senha">Senha</label>
+        <input id="user-password" type="text" placeholder="senha" required>
+			</div>
+			<div class="form-control">
+				<button type="button" id="button-login">Entrar</button>
+      </div>
+    </form>
+  </header>
+  <section class="main-content">
+    <div class="left-content">
+      <p id="facebook-slogan">O Facebook ajuda você a se conectar e compartilhar com as pessoas que fazem parte da sua vida.</p>
+      <img id="facebook-networking" src="imgs/networking.png">
+    </div>
+    <div class="right-content">
+      <h1>Abra uma conta</h1>
+      <div class="quick-easy">É rápido e fácil.</div>
+      <form class="subscription-form" method="GET">
+        <div class="subscription-form-1">
+          <input class="input-text-verification" name="firstname" placeholder="Nome" >
+          <input class="input-text-verification" name="lastname" placeholder="Sobrenome" >
+        </div>
+        <input class="input-text-verification" name="phone_email" placeholder="Celular ou email" >
+        <input class="input-text-verification" name="password" type="password" placeholder="Nova senha" required>
+        <label id="label-birthdate" for="birthdate">Data de nascimento</label>
+        <input class="input-text-verification" name="birthdate" placeholder="dd/mm/aaaa">
+        <label id="label-gender" for="">Gênero</label>
+        <div class="subscription-form-2">
+          <input class="input-radio-verification" id="feminino" type="radio" name="gender" value='Feminino'>
+          <label for="feminino">Feminino</label>
+          <input class="input-radio-verification" id="masculino" type="radio" name="gender" value='Masculino'>
+          <label for="masculino">Masculino</label>
+          <input class="input-radio-verification" id="personalizado" type="radio" name="gender" value='Personalizado'>
+          <label for="personalizado">Personalizado</label>
+        </div>
+        <button id="facebook-register" type="submit">Cadastre-se</button>
+      </form>
+    </div>
+  </section>
+  <script src="script.js"></script>
+</body>
+
+</html>

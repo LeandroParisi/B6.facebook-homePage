@@ -1,0 +1,51 @@
+.facebook-login {
+  align-items: center;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+}
+
+.form-control {
+  align-self: flex-end;
+}
+
+.form-group {
+  display: flex;
+  flex-flow: column wrap;
+}
+
+.top-bar {
+  background-color: rgb(66, 103, 178);
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+
+.main-content {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+}
+
+.left-content {
+  width: 800px;
+}
+
+.right-content {
+  width: 300px;
+}
+
+.subscription-form {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.subscription-form-1 {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.subscription-form-2 {
+  display: flex;
+  flex-direction: row;
+}
